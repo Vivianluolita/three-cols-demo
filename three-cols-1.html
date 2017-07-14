@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/three-cols-1.css">
+    <title></title>
+</head>
+<body>
+    <div class="left"></div>
+    <div class="main">
+        <h3>这或许是三种方法里最直观，最容易理解的：左右两栏采用绝对定位，分别固定于页面的左右两侧，中间的主
+            体栏用左右margin值撑开距离。于是实现了三栏自适应布局。</h3>
+        <h3>此方法的优点是，理解容易，上手简单，受内部元素影响而破坏布局的概率低，就是比较经得起折腾。
+            缺点在于：如果中间栏含有最小宽度限制，或是含有宽度的内部元素，当浏览器宽度小到一定程度，会发生层重叠的情况。然而，一般情况下，除非用户显示器分辨率宽度>=1600像素，否则用户不会把浏览器缩小到1000像素以
+            下的，所以该缺陷危害指数3.</h3>
+    </div>
+    <div class="right"></div>
+</body>
+</html>

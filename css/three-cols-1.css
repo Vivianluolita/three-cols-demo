@@ -1,0 +1,22 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+.left,.right{
+    position: absolute;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #a0b3d6;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.main{
+    margin: 0 210px;
+    background-color: aquamarine;
+    height: 100%;
+}
