@@ -1,0 +1,47 @@
+/*html,body{
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+}
+.main{
+    width:calc(100% - 400px);
+    height: 100%;
+    background-color: aquamarine;
+}
+.left,.main{
+    height: 100%;
+    background-color: #a0b3d6;
+    display: inline-block;
+}
+.left{
+    width:400px;
+}*/
+/*.right{
+    width:200px;
+}*/
+#left, #right, #bottom {
+    height: 100%;
+}
+#left {
+    background: red;
+}
+#right {
+    background: blue;
+}
+/** custom **/
+* {
+    box-sizing:border-box;
+}
+#main {
+    width:100%;
+}
+#left,#right {
+    display:inline-block;
+    width: 200px;
+}
+#main {
+    width:calc(100% - 400px);
+}
