@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    z-index: 1;
+}
+.container .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    min-height: 200px;
+    background: red;
+}
+.container .main {
+    min-height: 200px;
+    margin-left: 200px;
+    background: blue;
+}

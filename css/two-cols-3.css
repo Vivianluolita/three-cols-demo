@@ -1,0 +1,26 @@
+#left, #right{
+    height: 100%;
+}
+#left {
+    width:200px;
+    background: red;
+}
+#right {
+    background: blue;
+}
+/** custom **/
+* {
+    box-sizing:border-box;
+}
+#main {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#left,#right {
+    display:inline-block;
+}
+#right {
+    width:calc(100% - 200px);
+}

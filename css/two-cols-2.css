@@ -1,0 +1,25 @@
+#left, #right{
+    height: 100px;
+}
+#left {
+    width: 200px;
+    background: red;
+    height: 100%;
+}
+#right {
+    background: blue;
+    flex: 1;
+    height: 100%;
+}
+
+/** custom **/
+#main {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
