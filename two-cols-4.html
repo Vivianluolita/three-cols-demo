@@ -3,13 +3,19 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/two-cols-4.css">
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/clear.css">
+    <title>父元素相对定位、内边距 + 子元素绝对定位 + 子元素默认</title>
 </head>
 <body>
-<div class="container">
-    <div class="aside">左列宽度固定</div>
-    <div class="main">右列宽度自适应</div>
-    </div>
+<div class="main">
+    <div class="body">
+<h3>我测试了IE6，Firefox，以及chrome浏览器，表现一致。
 
+            此方法的优点：三栏相互关联，可谓真正意义上的自适应，有一定的抗性——布局不易受内部影响。
+            缺点在于：相对比较难理解些，上手不容易，代码相对复杂。出现百分比宽度，过多的负值定位，如果出现布局的bug，排查不易。</h3>
+    </div>
+</div>
+<div class="left"></div>
+<!--<div class="right"></div>-->
 </body>
 </html>

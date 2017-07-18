@@ -3,11 +3,11 @@
 }
 #left {
     width: 200px;
-    background: red;
+    background: #a0b3d6;
     height: 100%;
 }
 #right {
-    background: blue;
+   background-color: antiquewhite;
     flex: 1;
     height: 100%;
 }

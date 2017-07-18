@@ -1,26 +1,24 @@
-#left, #right{
+html,body{
+    margin: 0;
     height: 100%;
 }
-#left {
-    width:200px;
-    background: red;
-}
-#right {
-    background: blue;
-}
-/** custom **/
-* {
-    box-sizing:border-box;
-}
-#main {
-    width: 100%;
+.left,.right{
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #a0b3d6;
 }
-#left,#right {
-    display:inline-block;
+.left{
+    left: 0;
 }
-#right {
-    width:calc(100% - 200px);
+.right{
+    right: 0;
+}
+.main{
+    margin: 0 210px;
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+
 }
