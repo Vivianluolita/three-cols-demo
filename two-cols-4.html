@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/two-cols-4.css">
     <link rel="stylesheet" type="text/css" href="css/clear.css">
-    <title>父元素相对定位、内边距 + 子元素绝对定位 + 子元素默认</title>
+    <title>绝对定位法</title>
 </head>
 <body>
-<div class="main">
-    <div class="body">
-<h3>我测试了IE6，Firefox，以及chrome浏览器，表现一致。
+<div id="wrapper" style="width: 100%; height: 100%;margin-top: -19px;">
+    <div class="right">
+        <h3>右侧菜单：固定右菜单，左菜单适应右菜单</h3>
+        <h3>左侧同样用margin-right 右侧采用绝对定位</h3>
+    </div>
+    <div class="left">
 
-            此方法的优点：三栏相互关联，可谓真正意义上的自适应，有一定的抗性——布局不易受内部影响。
-            缺点在于：相对比较难理解些，上手不容易，代码相对复杂。出现百分比宽度，过多的负值定位，如果出现布局的bug，排查不易。</h3>
+        <h3>左侧菜单</h3>
+        <h3>兼容性：兼容所有主流浏览器</h3>
     </div>
 </div>
-<div class="left"></div>
-<!--<div class="right"></div>-->
 </body>
 </html>

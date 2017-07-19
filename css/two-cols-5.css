@@ -1,17 +1,27 @@
-.container {
-    position: relative;
-    z-index: 1;
+.wrap {
+    overflow: hidden;
+    background: #EEE;
 }
-.container .aside {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 200px;
-    min-height: 200px;
-    background: red;
+
+.wrap-right {
+    width: 300px;
+    /*position: relative;*/
+    float: right;
+    margin-left: -300px;
+    background: #AAA;
 }
-.container .main {
-    min-height: 200px;
-    margin-left: 200px;
-    background: blue;
+
+.wrap-left {
+    width: 100%;
+    float: left;
+}
+
+.left-con {
+    margin-right: 300px;
+    background: #DDD;
+}
+
+.left-con,
+.wrap-right {
+    height: 300px;
 }

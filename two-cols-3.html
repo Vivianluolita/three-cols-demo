@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/two-cols-3.css">
     <link rel="stylesheet" type="text/css" href="css/clear.css">
-    <title></title>
+    <title>自身浮动法</title>
 </head>
 <body>
-<div class="left"></div>
-<div class="main">
-    <h3>这或许是三种方法里最直观，最容易理解的：左右两栏采用绝对定位，分别固定于页面的左右两侧，中间的主
-        体栏用左右margin值撑开距离。于是实现了两栏自适应布局。</h3>
-    <h3>兼容性：兼容所有浏览器</h3>
+<div id="wrapper" style="width: 100%; height: 100%;margin: -20px auto;">
+    <div class="right">
+        <h3>右侧菜单：固定右菜单，左菜单适应右菜单</h3>
+        <h3>左侧用margin-right，右侧float：right</h3>
+    </div>
+    <div class="left">
+
+         <h3>左侧菜单</h3>
+         <h3>兼容性：兼容所有主流浏览器</h3>
+    </div>
 </div>
-<!--<div class="right"></div>--></body>
+</body>
 </html>

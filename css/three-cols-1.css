@@ -16,7 +16,7 @@ html,body{
     right: 0;
 }
 .main{
-    margin: 0 210px;
+    margin: -20px 200px;
     background-color: aquamarine;
     height: 100%;
 }

@@ -14,7 +14,7 @@ html,body{
     float: right;
 }
 .main{
-    margin: 0 210px;
+    margin: -20px 200px;
     background-color: aquamarine;
     height: 100%;
 }
